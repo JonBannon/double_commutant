@@ -4,4 +4,14 @@
 %
 % If you want to split the blueprint content into several files then
 % the current file can be a simple sequence of \input. Otherwise It
-% can start with a \section or \chapter for instance.
+% can start with a \section or \chapter for instance
+
+\begin{theorem}[von Neumann 1929]
+  \label{thm:double_commutant}
+  \lean{double_commutant}
+  \leanok
+  \uses{def:commutant}
+  \uses{def:weak_op_closure}
+  \uses{def:self_adj_star_subalg}
+  The weak operator closure of a self adjoint star subalgebra of operators acting on a Hilbert space equals the double commutant of that algebra.
+\end{theorem}
