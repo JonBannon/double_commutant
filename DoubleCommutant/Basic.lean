@@ -1,1 +1,1 @@
-def hello := "world"
+theorem double_commutant := sorry
