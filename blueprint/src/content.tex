@@ -6,10 +6,15 @@
 % the current file can be a simple sequence of \input. Otherwise It
 % can start with a \section or \chapter for instance
 
+\begin{definition}
+  \label{def:commutant}
+  \lean{commutant}
+  The commutant of a set $S$ of operators is the set of $T\in B(\mathcal{H})$ such that $\forall s\in S, Ts=sT$.
+\end{definition}
+
 \begin{theorem}[von Neumann 1929]
   \label{thm:double_commutant}
   \lean{double_commutant}
-  \leanok
   \uses{def:commutant}
   \uses{def:weak_op_closure}
   \uses{def:self_adj_star_subalg}
